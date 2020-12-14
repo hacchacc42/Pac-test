@@ -1,0 +1,34 @@
+﻿  Pacman.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1750,1): warning C4251: 'std::vector<S2D::Input::Keys,std::allocator<S2D::Input::Keys>>::_Mypair': class 'std::_Compressed_pair<std::allocator<S2D::Input::Keys>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<S2D::Input::Keys,std::allocator<S2D::Input::Keys>>'
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\include\vector(1750): message : see declaration of 'std::_Compressed_pair<std::allocator<S2D::Input::Keys>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+C:\Users\Issac wai\Documents\Pacman\Pacman\S2D\Input.h(108): message : see reference to class template instantiation 'std::vector<S2D::Input::Keys,std::allocator<S2D::Input::Keys>>' being compiled
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(72,16): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(72,16): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(90,20): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(146,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(147,51): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(193,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(199,33): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(205,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(211,34): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(250,125): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(250,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(319,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(321,12): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(323,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(325,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(331,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(332,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(333,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(334,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(411,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\Issac wai\Documents\Pacman\Pacman\Pacman.cpp(412,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Pacman.vcxproj -> C:\Users\Issac wai\Documents\Pacman\Debug\Pacman.exe

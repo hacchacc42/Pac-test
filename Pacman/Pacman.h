@@ -139,5 +139,5 @@ public:
 	/// <summary> Called every frame - draw game here. </summary>
 	void virtual Draw(int elapsedTime);
 
-	bool collisionCheck(int x1, int y1, int width1, int height1, int x2, int y2, int width2, int height2);
+	bool CheckCollision(int x1, int y1, int width1, int height1, int x2, int y2, int width2, int height2);
 };

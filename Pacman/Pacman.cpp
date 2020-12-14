@@ -310,6 +310,13 @@ void Pacman::Update(int elapsedTime)
 	{
 		updateMunchie(_munchies[i], elapsedTime);
 	}
+	for (int i = 0; i < GHOSTCOUNT; i++)
+	{
+		if (CheckCollision(_ghosts[i]->position->X, _ghosts[i]->position->Y, _ghosts[i]->sourceRect->Width, _ghosts[i]->sourceRect->Height, _pacman->position->X, _pacman->position->Y, _pacman->sourceRect->Width, _pacman->sourceRect->Height))
+		{
+			cout << "POG";
+		}
+	}
 }
 
 void Pacman::CheckGhostCollision()
@@ -335,11 +342,70 @@ void Pacman::CheckGhostCollision()
 
 		if ((bottom1 > top2) && (top1 < bottom2) && (right1 > left2) && (left1 < right2))
 		{
-			cout << "OUF";
 			_pacman->dead = true;
 			i = GHOSTCOUNT;
 		}
 	}
+}
+
+/*void Pacman::CheckMunchiesCollision()
+{
+	//local variables
+	int i = 0;
+	int bottom1 = _pacmanPosition->Y + _pacmanSourceRect->Height;
+	int bottom2 = 0;
+	int left1 = _pacmanPosition->X;
+	int left2 = 0;
+	int right1 = _pacmanPosition->X + _pacmanSourceRect->Width;
+	int right2 = 0;
+	int top1 = _pacmanPosition->Y;
+	int top2 = 0;
+
+	for (i = 0; i < MUNCHIECOUNT; i++)
+	{
+		// Populate variable with Ghost data
+		bottom2 = _munchies[i]->position->Y + _munchies[i]->sourceRect->Height;
+		left2 = _munxhies[i]->position->X;
+		right2 = _munchies[i]->position->X + _munchies[i]->sourceRect->Width;
+		top2 = _munchies[i]->position->Y;
+
+		if ((bottom1 > top2) && (top1 < bottom2) && (right1 > left2) && (left1 < right2))
+		{
+			_pacman->dead = true;
+			i = GHOSTCOUNT;
+		}
+	}
+}*/
+
+bool Pacman::CheckCollision(int x1, int y1, int width1, int height1,
+	int x2, int y2, int width2, int height2)
+{
+	int left1 = x1;
+	int left2 = x2;
+	int right1 = x1 + width1;
+	int right2 = x2 + width2;
+	int top1 = y1;
+	int top2 = y2;
+	int bottom1 = y1 + height1;
+	int bottom2 = y2 + height2;
+	if (bottom1 < top2)
+	{
+		return false;
+	}
+	if (top1 > bottom2)
+	{
+		return false;
+	}
+	if (right1 < left2)
+	{
+		return false;
+	}
+	if (left1 > right2)
+	{
+		return false;
+	}
+
+	return true;
 }
 
 void Pacman::Draw(int elapsedTime)

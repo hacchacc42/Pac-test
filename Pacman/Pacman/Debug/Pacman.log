@@ -1,0 +1,78 @@
+﻿  Pacman.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<S2D::Input::Keys,std::allocator<S2D::Input::Keys>>::_Mypair': class 'std::_Compressed_pair<std::allocator<S2D::Input::Keys>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<S2D::Input::Keys,std::allocator<S2D::Input::Keys>>'
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<S2D::Input::Keys>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\S2D\Input.h(108): message : see reference to class template instantiation 'std::vector<S2D::Input::Keys,std::allocator<S2D::Input::Keys>>' being compiled
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(72,16): warning C4156: deletion of an array expression without using the array form of 'delete'; array form substituted
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(72,16): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(90,20): warning C4154: deletion of an array expression; conversion to pointer supplied
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(130,125): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(130,79): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(207,2): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(207,25): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(208,2): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(208,25): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(251,6): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(251,27): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(254,3): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(254,35): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(257,6): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(257,27): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(260,3): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(260,35): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(263,6): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(263,27): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(266,3): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(266,36): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(269,6): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(269,27): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(272,3): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(272,36): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(316,174): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(316,152): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(316,67): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(316,42): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(327,16): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(327,37): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(329,14): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(331,15): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(331,36): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(333,13): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(339,37): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(340,31): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(341,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(342,30): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(417,21): error C2065: '_pacmanTexture': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(417,37): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(417,54): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(422,28): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(422,60): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(425,20): error C2065: '_pacmanTexture': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(425,36): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(425,53): error C2065: '_pacmanSourceRect': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(478,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(479,36): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(486,3): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(494,3): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(502,3): error C2065: '_pacmanPosition': undeclared identifier
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\Pacman.cpp(510,3): error C2065: '_pacmanPosition': undeclared identifier
+  main.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749,1): warning C4251: 'std::vector<S2D::Input::Keys,std::allocator<S2D::Input::Keys>>::_Mypair': class 'std::_Compressed_pair<std::allocator<S2D::Input::Keys>,std::_Vector_val<std::_Simple_types<_Ty>>,true>' needs to have dll-interface to be used by clients of class 'std::vector<S2D::Input::Keys,std::allocator<S2D::Input::Keys>>'
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.27.29110\include\vector(1749): message : see declaration of 'std::_Compressed_pair<std::allocator<S2D::Input::Keys>,std::_Vector_val<std::_Simple_types<_Ty>>,true>'
+          with
+          [
+              _Ty=S2D::Input::Keys
+          ]
+C:\Users\PC-Stefan\Desktop\Cioada\Pac-test\Pacman\Pacman\S2D\Input.h(108): message : see reference to class template instantiation 'std::vector<S2D::Input::Keys,std::allocator<S2D::Input::Keys>>' being compiled
+  Generating Code...
